@@ -16,7 +16,7 @@ export const adotApi = createApi({
   baseQuery: fetchBaseQuery({
     // baseUrl: config.apiUrl,
 
-    baseUrl: 'https://adot-prod-174348059214.europe-west2.run.app/api'git ,
+    baseUrl: 'https://adot-prod-174348059214.europe-west2.run.app/api' ,
     
     
     prepareHeaders: (headers, { getState }: any) => {
